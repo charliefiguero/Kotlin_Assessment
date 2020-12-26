@@ -3,22 +3,40 @@
 # r3_submission
 A game verifier for noughts and crosses build for the r3 coding interview.
 
-# Gradle
-
 # Prerequisites
-Gradle runs on all major operating systems and requires only a Java Development Kit version 8 or higher to run. To check, run java -version. You should see something like this:
+This project was build for Java Development Kit version 15 or higher. To check, run java -version. You should see something like this:
 
 ```
 ❯ java -version
-java version "1.8.0_151"
-Java(TM) SE Runtime Environment (build 1.8.0_151-b12)
-Java HotSpot(TM) 64-Bit Server VM (build 25.151-b12, mixed mode)
+openjdk 15.0.1 2020-10-20
+OpenJDK Runtime Environment (build 15.0.1+9)
+OpenJDK 64-Bit Server VM (build 15.0.1+9, mixed mode, sharing)
 ```
 
-## Build
+## Project Structure
+The major class of the submission: Board.java, and two enum classes: GameState and TileState are found in: 
+
+```
+r3_submission/src/main/java/submission/
+```
+
+The test cases are found in: 
+
+```
+r3_submission/src/test/java/submission/BoardTest.java
+```
+
+# Gradle
+The build for this project is handled by Gradle.
 
 ## Test
+To check the game verifier against the tests written for it, run the following code from inside the r3_submission folder containing build.gradle:
+
+```
+> gradle test
+```
 
 # Intellij
 
-## Set Up
+## Import Project
+To set up the project in a development enviroment, open up 
