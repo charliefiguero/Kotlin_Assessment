@@ -1,7 +1,7 @@
 
 
-# r3_submission
-A game verifier for noughts and crosses build for the r3 coding interview.
+# R3 Coding Interview Submission
+A game verifier for noughts and crosses built for a R3 coding interview.
 
 # Prerequisites
 This project was build for Java Development Kit version 15 or higher. To check, run java -version. You should see something like this:
@@ -39,4 +39,14 @@ To check the game verifier against the tests written for it, run the following c
 # Intellij
 
 ## Import Project
-To set up the project in a development enviroment, open up 
+To set up the project in the Intellij IDE: 
+
+1. Open Intellij and navigate to:
+```
+>File >New >Project from existing sources
+```
+2. Then select the r3_submission folder and open.
+3. Select "Import project from external model" and choose Gradle.
+4. Finally, press finish to import the project and open it in a development window.
+
+
