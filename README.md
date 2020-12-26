@@ -3,6 +3,9 @@
 # R3 Coding Interview Submission
 A game verifier for noughts and crosses built for a R3 coding interview.
 
+## Author
+Charlie Figuero
+
 # Prerequisites
 This project was build for Java Development Kit version 15 or higher. To check, run java -version. You should see something like this:
 
