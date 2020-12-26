@@ -30,7 +30,7 @@ r3_submission/src/test/java/submission/BoardTest.java
 The build for this project is handled by Gradle.
 
 ## Test
-To check the game verifier against the tests written for it, run the following code from inside the r3_submission folder containing build.gradle:
+To check the game verifier against the tests written for it, run the following code from inside the r3_submission folder containing the build.gradle file:
 
 ```
 > gradle test
