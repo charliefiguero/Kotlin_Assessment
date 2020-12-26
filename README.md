@@ -8,4 +8,4 @@
 
 # Intellij
 
-## Set-Up
+## Set Up
